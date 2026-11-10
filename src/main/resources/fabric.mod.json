@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autorefill",
+  "version": "${version}",
+  "name": "Auto Refill Hotbar",
+  "description": "Tự lấy item từ túi đồ xuống hotbar khi hết. Cấu hình bằng menu (Right Shift).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.autorefill.AutoRefillClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
